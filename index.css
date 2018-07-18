@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+
+
+
+.startImg {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+  font-size: 40px;
+  color: #1C303D;
+}
+
+h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
+  color: #1C303D;
+}
+
+body {
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #1C303D;
+  background-color: rgba(102, 173, 142, 0.5);
+}
+
+fieldset {
+    border-color: #1C303D;
+  }
+
+.scoreCounter {
+  font-weight: 200;
+  color: #1C303D;
+}
+
+button {
+  font-weight: bold;
+  font-size: 14px;
+  background-color:  #1C303D;
+  color: white;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  border-radius: 4px;
+  border: 0px;
+}
+
+button:hover {
+  background-color: #FCCA46;
+  color: #1C303D;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 25px;
+  }
+
+  .answers {
+    display: block;
+    text-align: left;
+  }
+
+  fieldset {
+    border: 0;
+  }
+  
+  button {
+    font-size: 20px;
+  }
+}
